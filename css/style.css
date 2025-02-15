@@ -65,7 +65,6 @@ img {
     gap: 40px;
 }
 
-
 .header-info-item {
     display: flex;
 }
@@ -84,7 +83,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
 
 .header-logo-name {
     color: #2e2f42;
@@ -120,6 +118,7 @@ address {
 }
 
 .header-info-items {
+    display: flex;
     gap: 40px;
 }
 
