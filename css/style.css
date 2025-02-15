@@ -321,6 +321,7 @@ address {
     background-color: #2E2F42;
     color: #F4F4FD;
     line-height: 24px;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -331,6 +332,8 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo-name {
@@ -339,6 +342,7 @@ address {
 
 .footer-info {
     letter-spacing: 0.02em;
+    max-width: 264px
 }
 
 /* End Footer */
