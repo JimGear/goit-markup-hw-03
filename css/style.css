@@ -13,7 +13,56 @@ li {
     list-style-type: none;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1228px;
+    margin-left: 156px;
+    margin-right: 156px;
+}
+
 /* Start Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.header-menu {
+    display: flex;
+}
+
+.header-menu-list {
+    display: flex;
+    margin-left: 76px;
+}
+
+.header-menu-list-item+.header-menu-list-item {
+    margin-left: 40px;
+}
+
+.header-info-item {
+    display: flex;
+}
+
+.header-contact-link+.header-contact-link {
+    margin-left: 40px;
+}
 
 .header-logo {
     color: #4d5ae5;
