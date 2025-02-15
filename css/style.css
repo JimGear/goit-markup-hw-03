@@ -205,6 +205,10 @@ address {
     letter-spacing: 0.02em;
 }
 
+.visually-hidden {
+    display: none;
+}
+
 /* End Description */
 /* Start Team */
 
