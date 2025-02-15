@@ -65,9 +65,6 @@ img {
     gap: 40px;
 }
 
-.header-menu-list-item {
-    padding: 24px 0
-}
 
 .header-info-item {
     display: flex;
@@ -104,6 +101,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -168,9 +166,26 @@ address {
 /* End Banner */
 /* Start Description */
 
+.description {
+    padding: 120px 0
+}
+
 .description-title {
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+
+.description-items {
+    display: flex;
+    gap: 24px;
+}
+
+.description-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.description-item-title {
+    margin-bottom: 8px;
 }
 
 .description-item-title {
