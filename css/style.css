@@ -29,10 +29,17 @@ p {
     margin: 0;
 }
 
+img {
+    display: block
+}
+
 .container {
-    max-width: 1228px;
+    display: flex;
+    width: 1158px;
     margin-left: 156px;
     margin-right: 156px;
+    margin: 0 auto;
+    padding: 0 15px
 }
 
 /* Start Header */
@@ -41,27 +48,33 @@ p {
     display: flex;
     justify-content: space-between;
     padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc
 }
 
 .header-menu {
     display: flex;
+    align-items: center
+}
+
+.header-logo {
+    margin-right: 76px;
 }
 
 .header-menu-list {
     display: flex;
-    margin-left: 76px;
+    gap: 40px;
 }
 
-.header-menu-list-item+.header-menu-list-item {
-    margin-left: 40px;
+.header-menu-list-item {
+    padding: 24px 0
 }
 
 .header-info-item {
     display: flex;
 }
 
-.header-contact-link+.header-contact-link {
-    margin-left: 40px;
+.header-contact-link {
+    gap: 40px
 }
 
 .header-logo {
